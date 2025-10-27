@@ -9,9 +9,9 @@ app = Flask(__name__)
 
 # loading vectorizer and model
 vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
-model= joblib.load('model/logistic_regression_model.pkl')
+model= joblib.load('model/model.pkl')
 
-nltk.download('stopwords')
+# nltk.download('stopwords')
 
 #text preprocessing
 stop_words = set(stopwords.words('english'))
@@ -31,7 +31,7 @@ def hello_world():
    return render_template('index.html')
 #    return "hello_world"
 
-@app.route('/predict', method =['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
    if request.method == 'POST':
       user_text = request.form['text']

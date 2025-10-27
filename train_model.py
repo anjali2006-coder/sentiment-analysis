@@ -46,11 +46,11 @@ vectorizer = TfidfVectorizer(max_features=5000)
 X_train_vect = vectorizer.fit_transform(X_train)
 X_test_vect = vectorizer.transform(X_test)
 
-lr_model = LogisticRegression(max_iter=1000, solver='liblinear')
-lr_model.fit(X_train_vect, y_train)
+model = LogisticRegression(max_iter=1000, solver='liblinear')
+model.fit(X_train_vect, y_train)
 
 # Predict
-y_pred_lr = lr_model.predict(X_test_vect)
+y_pred_lr = model.predict(X_test_vect)
 
 # Evaluate
 print("Logistic Regression:")
@@ -62,6 +62,8 @@ print("Report:\n", classification_report(y_test, y_pred_lr))
 os.makedirs('model', exist_ok=True)
 
 joblib.dump(vectorizer, 'model/tfidf_vectorizer.pkl')
-joblib.dump(lr_model, 'model/logistic_regression_model.pkl')
+joblib.dump(model, 'model.pkl')
+
+
 
 print("done 2")
