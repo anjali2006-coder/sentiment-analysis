@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 
 # loading vectorizer and model
-# vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
-# model= joblib.load('model/logistic_regression_model.pkl')
+vectorizer = joblib.load('model/tfidf_vectorizer.pkl')
+model= joblib.load('model/logistic_regression_model.pkl')
 
 nltk.download('stopwords')
 

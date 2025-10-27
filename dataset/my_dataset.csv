@@ -1,4 +1,4 @@
-statements,sentiment
+Ôªøstatements,sentiment
 I hate the traffic today,Negative
 I am feeling low ,Negative
 I am really disappointed how this turned out ,Negative
@@ -20,17 +20,17 @@ The performance was a disaster,Negative
 The movie was boring ,Negative
 It was a complete waste of efforts,Negative
 I honestly feel scammed,Negative
-It doesnít do what it promises.,Negative
+It doesn‚Äôt do what it promises.,Negative
 The smell was unbearable.,Negative
-Iím extremely dissatisfied.,Negative
-I didnít get what I ordered.,Negative
+I‚Äôm extremely dissatisfied.,Negative
+I didn‚Äôt get what I ordered.,Negative
 The evnet was unorganized,Negative
 It is almost impossible to clean,Negative
 It is clunky and unreliable,Negative
 The room smelled like smoke and mold.,Negative
-Iím frustrated beyond words.,Negative
+I‚Äôm frustrated beyond words.,Negative
 The charger stopped working immediately.,Negative
-Iím not impressed by the performance.,Negative
+I‚Äôm not impressed by the performance.,Negative
 Very bad performance ,Negative
 It's simply not worth the hassle,Negative
 He is rude and careless,Negative
@@ -100,7 +100,7 @@ Poorly packaged and damaged,Negative
 The food was cold and late. What a joke,Negative
 Not worth the hype at all,Negative
 Ugh. Another delayed flight. Shocking,Negative
-Canít believe they call this ìpremium.î What a joke,Negative
+Can‚Äôt believe they call this ‚Äúpremium.‚Äù What a joke,Negative
 Feeling a bit under the weather today.,Negative
 Winter blues got me feeling low.,Negative
 Heartbroken after hearing the news about a natural disaster.,Negative
@@ -201,32 +201,32 @@ smooth fast and reliable,Positive
 That service was lightning fast!,Positive
 So impressed by the improvements,Positive
 The colors and design are beautiful.,Positive
-Everythingís working better than before.,Positive
-"Honestly, couldnít be happier right now. ",Positive
+Everything‚Äôs working better than before.,Positive
+"Honestly, couldn‚Äôt be happier right now. ",Positive
 Their support is always so helpful.,Positive
-Iím really enjoying this app lately.,Positive
+I‚Äôm really enjoying this app lately.,Positive
 Works like a charm every single time.,Positive
 The movie was amazing! Great storyline.,Positive
 The customer service was so kind and quick,Positive
 So glad I gave this a try,Positive
 100% satisfied with my purchase!,Positive
-The update looks gorgeous ó nice job team!,Positive
+The update looks gorgeous ‚Äî nice job team!,Positive
 You look really pretty,Positive
 You look stunning,Positive
-Iím beyond happy right now.,Positive
+I‚Äôm beyond happy right now.,Positive
 Got exactly what I wanted.,Positive
 Such a pleasant surprise!,Positive
-Best decision Iíve made lately!,Positive
+Best decision I‚Äôve made lately!,Positive
 Love how thoughtful this design is.,Positive
-Everythingís running perfectly now.,Positive
-"Honestly, Iím super impressed.",Positive
+Everything‚Äôs running perfectly now.,Positive
+"Honestly, I‚Äôm super impressed.",Positive
 This brand always delivers the best stuff.,Positive
 Everything just clicked perfectly.,Positive
 Such a positive experience overall.,Positive
 Love when things work this well.,Positive
 "Wow, that update was flawless.",Positive
-Itís better than I ever imagined.,Positive
-Iíd give this 5 stars easily.,Positive
+It‚Äôs better than I ever imagined.,Positive
+I‚Äôd give this 5 stars easily.,Positive
 Absolutely loving every bit of it.,Positive
 So cool! Works perfectly every time.,Positive
 Excellent improvement from the last version.,Positive
@@ -398,8 +398,3 @@ the bus stopped here,Neutral
 it is time for the dinner,Neutral
 the dog is outside,Neutral
 the shoes are under the table,Neutral
-,
-,
-,
-,
-,
