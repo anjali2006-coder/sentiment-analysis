@@ -26,6 +26,7 @@ ps = PorterStemmer()
 def preprocess_text(text):
     text = re.sub(r'http\S+', '', text)  # Remove URLs
     text = re.sub(r'[^a-zA-Z\s]', '', text)  # Remove punctuation
+    text = re.sub(r'\bnot\b', 'not_', text)  # combine 'not' with next word
     text = text.lower().split()  # Lowercase and tokenize
     text = [ps.stem(word) for word in text if word not in stop_words]
     return ' '.join(text)

@@ -21,6 +21,7 @@ ps = PorterStemmer()
 def preprocess_text(text):
     text = re.sub(r'http\S+', '', text)
     text = re.sub(r'[^a-zA-Z\s]', '', text)
+    text = re.sub(r'\bnot\b', 'not_', text)  # combine 'not' with next word
     words = text.lower().split()
     words = [ps.stem(word) for word in words if word not in stop_words]
     return ' '.join(words)
